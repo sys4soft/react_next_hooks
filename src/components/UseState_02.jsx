@@ -11,10 +11,15 @@ export default () => {
         setValor(v => v + 1)
     }
 
+    function diminuir_valor(a){
+        setValor(v => v - a)
+    }
+
     return (
         <>
             <h4>useState1</h4>
             <p>Valor: {valor}</p>
+            <button onClick={() => diminuir_valor(10)}>Diminuir</button>
             <button onClick={diminuir}>Diminuir</button>
             <button onClick={aumentar}>Aumentar</button>
         </>
