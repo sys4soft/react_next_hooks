@@ -4,7 +4,8 @@ import React from "react";
 // import HookState02 from './components/UseState_02'
 // import HookState03 from './components/UseState_03'
 // import HookState04 from './components/UseState_04'
-import HookState05 from './components/UseState_05'
+// import HookState05 from './components/UseState_05'
+import HookState06 from './components/UseState_06'
 
 export default () => {
     return (
@@ -14,7 +15,8 @@ export default () => {
             {/* <HookState02 /> */}
             {/* <HookState03 /> */}
             {/* <HookState04 /> */}
-            <HookState05 />
+            {/* <HookState05 /> */}
+            <HookState06 />
         </>
     )
 }
