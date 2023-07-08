@@ -14,8 +14,9 @@ import React from "react";
 // import HookState12 from './components/UseState_12'
 // import HookState13 from './components/UseState_13'
 // import HookState14 from './components/UseState_14'
-import HookState15 from './components/UseState_15'
-import HookRef16 from './components/UseRef_16'
+// import HookState15 from './components/UseState_15'
+// import HookRef16 from './components/UseRef_16'
+import HookEffect17 from './components/UseEffect_17'
 
 export default () => {
     return (
@@ -35,8 +36,9 @@ export default () => {
             {/* <HookState12 /> */}
             {/* <HookState13 /> */}
             {/* <HookState14 /> */}
-            <HookState15 />
-            <HookRef16 />
+            {/* <HookState15 /> */}
+            {/* <HookRef16 /> */}
+            <HookEffect17 />
         </>
     )
 }
